@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Light brown color */
+    margin: 0;
+    padding: 0;
+}
+.zag{
+    color: purple;
+    border-bottom: solid 3px purple;
+    margin-right: 180px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #e2e2e2;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+nav {
+    margin-top: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.about {
+    display: flex; /* Use Flexbox for horizontal layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-top: 30px;
+}
+.about-text {
+    max-width: 50%; /* Limit text width */
+    margin-right: 20px; /* Add some space to the right of the text */
+    text-align: left; /* Align text to the left for better readability */
+}
+.profile-picture {
+    position: relative; /* Position relative for absolute positioning of child elements */
+}
+.profile-picture img {
+    border-radius: 8px;
+    max-width: 100%; /* Ensure the image resizes to fit within its container */
+    height: auto; /* Maintain the aspect ratio */
+    width: 200px; /* Set a fixed width for uniformity */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Shallow shadow effect */
+}
+.social-media {
+    position: absolute;
+    bottom: 10px; /* Distance from the bottom of the image */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    display: flex; /* Use Flexbox for horizontal layout */
+    justify-content: center; /* Center the icons */
+}
+.social-media a {
+    margin: 0 5px; /* Equal spacing around icons */
+    color: #fff; /* Change icon color to white for better contrast */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s; /* Smooth transition on hover */
+    display: inline-block; /* Ensure icons are displayed inline */
+}
+.social-media a:hover {
+    color: #0073e6; /* Change color on hover */
+}
+.about p {
+    color: #666;
+    max-width: 800px;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background: #e2e2e2;
+    margin: 20px 0;
+}
+.contact {
+    margin-top: 30px;
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.contact-item {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 0 10px;
+}
+.contact-item p {
+    margin: 0;
+    color: #333;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+}
